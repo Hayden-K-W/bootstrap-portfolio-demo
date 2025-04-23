@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Development Bootcamp Project">
+    <title>My Web Development Project</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-secondary fixed-top bg-secondary" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand text-white font-weight-bold" href="#">Hayden White</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container-fluid mt-5 pb-5 bg-info">
+        <div class="row mt-4">
+            <h1 class="text-center text-decoration-underline mt-4 mb-4">Contact Me</h1>
+        </div> 
+        <h3 class="mt-4 text-center my-2">Please fill out entire form</h3>
+        <form>
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                </div>
+                <div class="col-md-4 my-2">
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+                <div class="col-md-4 my-2">
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary align-self-end mt-4">Submit</button>
+                </div>
+            </div>
+        <form>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-4 mt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p>&copy; 2025, Hayden White. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p>Bootstrap Project for Coding Temple</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
